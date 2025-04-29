@@ -6,7 +6,7 @@
 /*   By: cmoitaj <cmoitaj@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/26 16:47:19 by tbhuiyan          #+#    #+#             */
-/*   Updated: 2025/04/29 18:10:50 by cmoitaj          ###   ########.fr       */
+/*   Updated: 2025/04/29 19:07:13 by cmoitaj          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,6 @@ size_t	ft_strlcat(char *dest, const char *src, size_t n)
 		}
 	}
 	if (len_dest < n)
-		dest[len_dest + i] = '/0';
+		dest[len_dest + i] = '\0';
 	return (len_dest + len_src);
 }

@@ -6,7 +6,7 @@
 /*   By: cmoitaj <cmoitaj@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/28 13:35:51 by tbhuiyan          #+#    #+#             */
-/*   Updated: 2025/04/29 17:46:35 by cmoitaj          ###   ########.fr       */
+/*   Updated: 2025/04/29 19:07:27 by cmoitaj          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,5 +34,4 @@ char	*ft_strjoin(const char *s1, const char *s2)
 	}
 	tab[i] = '\0';
 	return (tab);
-
 }
