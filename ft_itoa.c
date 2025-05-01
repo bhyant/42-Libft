@@ -6,13 +6,13 @@
 /*   By: tbhuiyan <tbhuiyan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/29 14:29:23 by tbhuiyan          #+#    #+#             */
-/*   Updated: 2025/04/29 16:14:03 by tbhuiyan         ###   ########.fr       */
+/*   Updated: 2025/05/01 10:57:47 by tbhuiyan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_countnumber(int n)
+static int	ft_countnumber(int n)
 {
 	size_t	count;
 	long	nbr;

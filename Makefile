@@ -1,12 +1,12 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    MAKEFILE                                           :+:      :+:    :+:    #
+#    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: cmoitaj <cmoitaj@student.42.fr>            +#+  +:+       +#+         #
+#    By: tbhuiyan <tbhuiyan@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2025/04/29 19:08:36 by cmoitaj           #+#    #+#              #
-#    Updated: 2025/04/29 19:11:35 by cmoitaj          ###   ########.fr        #
+#    Created: 2025/05/01 10:27:26 by tbhuiyan          #+#    #+#              #
+#    Updated: 2025/05/01 10:28:38 by tbhuiyan         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -46,15 +46,6 @@ SRCS =  ft_isalpha.c \
 	ft_split.c \
 	ft_itoa.c \
 	ft_strtrim.c \
-	ft_lstadd_back_bonus.c \
-	ft_lstadd_front_bonus.c \
-	ft_lstclear_bonus.c \
-	ft_lstdelone_bonus.c \
-	ft_lstiter_bonus.c \
-	ft_lstlast_bonus.c \
-	ft_lstmap_bonus.c \
-	ft_lstnew_bonus.c \
-	ft_lstsize_bonus.c
 
 OBJS = ${SRCS:.c=.o}
 

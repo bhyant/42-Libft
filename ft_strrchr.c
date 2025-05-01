@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cmoitaj <cmoitaj@student.42.fr>            +#+  +:+       +#+        */
+/*   By: tbhuiyan <tbhuiyan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/26 17:58:17 by tbhuiyan          #+#    #+#             */
-/*   Updated: 2025/04/29 18:17:05 by cmoitaj          ###   ########.fr       */
+/*   Updated: 2025/05/01 10:41:07 by tbhuiyan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 char	*ft_strrchr(const char *str, int c)
 {
-	size_t	i;
+	int	i;
 
 	i = 0;
 	i = ft_strlen(str);

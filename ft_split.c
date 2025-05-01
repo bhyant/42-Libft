@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cmoitaj <cmoitaj@student.42.fr>            +#+  +:+       +#+        */
+/*   By: tbhuiyan <tbhuiyan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/29 15:01:11 by tbhuiyan          #+#    #+#             */
-/*   Updated: 2025/04/29 18:57:29 by cmoitaj          ###   ########.fr       */
+/*   Updated: 2025/05/01 10:57:11 by tbhuiyan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_countwords(const char *str, char c)
+static size_t	ft_countwords(const char *str, char c)
 {
 	size_t	i;
 	size_t	count;
@@ -28,7 +28,7 @@ size_t	ft_countwords(const char *str, char c)
 	return (count);
 }
 
-char	*ft_mallocword(const char *str, size_t start, size_t end)
+static char	*ft_mallocword(const char *str, size_t start, size_t end)
 {
 	char	*tab;
 	size_t	i;
