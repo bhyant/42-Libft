@@ -46,7 +46,8 @@ SRCS =  ft_isalpha.c \
 	ft_split.c \
 	ft_itoa.c \
 	ft_strtrim.c \
-	ft_lstadd_back_bonus.c \
+
+SRCS_BONUS =  ft_lstadd_back_bonus.c \
 	ft_lstadd_front_bonus.c \
 	ft_lstclear_bonus.c \
 	ft_lstdelone_bonus.c \
