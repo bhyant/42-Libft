@@ -10,7 +10,7 @@
 #                                                                              #
 # **************************************************************************** #
 
-CFLAGS = -Wall -Wextra -Werror
+CFLAGS = -Wall -Wextra -Werror -MMD
 
 SRCS =  ft_isalpha.c \
 	ft_isdigit.c \
@@ -83,3 +83,8 @@ re: fclean all
 
 bonus: ${OBJS_BONUS}
 	@ar rc ${NAME} ${OBJS_BONUS}
+
+.PHONY: re all clean fclean
+
+-include $(OBJS:.o=.d)
+-include $(OBJS_BONUS:.o=.d)
