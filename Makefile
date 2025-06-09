@@ -6,7 +6,7 @@
 #    By: tbhuiyan <tbhuiyan@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/01 10:27:26 by tbhuiyan          #+#    #+#              #
-#    Updated: 2025/05/01 11:01:55 by tbhuiyan         ###   ########.fr        #
+#    Updated: 2025/06/09 18:19:11 by tbhuiyan         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -74,10 +74,12 @@ ${NAME}: ${OBJS} ${INC}
 	@ar rc ${NAME} ${OBJS}
 
 clean:
-	@rm -f ${OBJS} ${OBJS_BONUS}
+	@rm -f ${OBJS} ${OBJS_BONUS} ${OBJS:.o=.d} ${OBJS_BONUS:.o=.d}
+
 
 fclean: clean
-	@rm -f ${NAME}
+	@rm -f ${NAME} ${OBJS:.o=.d} ${OBJS_BONUS:.o=.d}
+
 
 re: fclean all
 
