@@ -22,15 +22,10 @@ Partie bonus - Gestion des listes chaînées
 Implémentation de fonctions pour manipuler les listes chaînées : ft_lstnew, ft_lstadd_front, ft_lstsize, ft_lstclear, etc.
 
 Compilation
-bashmake        # Compile la bibliothèque
+make        # Compile la bibliothèque
 make bonus  # Compile avec les fonctions bonus
 make clean  # Supprime les fichiers objets
 make fclean # Supprime tout
 make re     # Recompile entièrement
 
-Utilisation
-#include "libft.h"
-
-char *str = ft_strdup("Hello World");
-int len = ft_strlen(str);
 La bibliothèque génère un fichier libft.a à lier avec vos projets.
